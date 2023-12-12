@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+* {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background: whitesmoke;
+    
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    width: 100%;
+  } 
+.ceo {
+    width: 100%;
+} 
+.skills {
+    width: 100%;
+} 
+.contact {
+    width: 100%;
+}  
+.container {
+    display: flex;
+}
+
+.container p {
+    font-size: 2rem;
+}
+
+.container p span.typed-text {
+    font-weight: bold;
+    color: black;
+}
+
+.container p span.cursor {
+    display: inline-block;
+    background-color: black;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+
+.container p span.cursor.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    0% {
+        background-color: black;
+    }
+
+    49% {
+        background-color: black;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    99% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: #ccc;
+    }
+}
+
+.blue {
+  color: #979797;
+}
+.ceo {
+  width: 100%;
+}
+header {
+    width: 100%;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+}
+header ul li {
+    list-style: none;
+    margin-left: 10px;
+}
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: black;
+    border-radius: 20px;
+}
+header ul li a:hover, header ul li a.active {
+    background: white;
+    color: black;
+}
+
+.urep {
+    background: black;
+    color: white;
+}
+
+.card {
+    height: 100%;
+    display: grid;
+    justify-content: center;
+}
+.satu {
+    width: 300px ;
+    height: 300px;
+    margin: 10px;
+
+    border-radius: 20px;
+
+    overflow: auto;
+
+    background: white;
+}
+.one {
+    width: 300px ;
+    height: 300px;
+    margin: 10px;
+
+    border-radius: 20px;
+
+    overflow: auto;
+
+    background: white;
+}
+.ones {
+    width: 300px ;
+    height: 200px;
+    margin: 10px;
+    
+    border-radius: 20px;
+
+    overflow: auto;
+
+    background: whitesmoke;
+}
+.coc {
+    width: 300px ;
+    height: 300px;
+    margin: 10px;
+
+    border-radius: 20px;
+
+    overflow: auto;
+
+    background: whitesmoke;
+}
+.dua {
+    margin: 10px;
+    color: black;
+}
+.oness {
+    width: 300px ;
+    height: 90px;
+    margin: 10px;
+
+    border-radius: 20px;
+
+    overflow: auto;
+
+    background: whitesmoke;
+}
+.werno {
+    color: red;
+}
